@@ -1,38 +1,120 @@
 .App {
   text-align: center;
+  margin : auto;
+  background: url(F:/FinalProject/loginapp/src/retro2.jpg) no-repeat center center fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.div
+{
+  background: url(F:/FinalProject/loginapp/src/retro3.jpg) no-repeat center center fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#myInput {
+  /*background-image: url(F:/FinalProject/loginapp/src/searchicon.png);*/
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+  .form{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+    }
+    
+    .form{
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 360px; 
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 10px 10px 5px grey;
+    }
+    
+    .input
+    {
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizeing: border-box;
+    font-size: 14px;
+    }
+    
+    .form button
+    {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background:#ede3b2;
+    width: 100%;
+    padding: 10px;
+    color: #080000;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px grey;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+   
+    
+
+    .submit1
+    {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background:#d4c2b8;
+    width: 20%;
+    padding: 10px;
+    color: #080000;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px grey;
+    }
+
+    
+    ul{
+      margin: 0 px;
+      padding: 0px;
+      life-style: none;
+      }
+      
+      ul li {
+      float: left;
+      width: 200px;
+      height: 40px;
+      background-color: rgb(252, 249, 249);
+      opacity: .9;
+      line-height: 40px;
+      text-align: center;
+      font-size: 18px;
+      }
+      
+      ul li a { 
+      text-decoration: none;
+      color: black;
+      display: block;
+      }
+      
+      ul li a:hover {
+      background-color: palegoldenrod;
+      }
+      
+      ul li ul li {
+      display: none;
+      }
+      
+      ul li:hover ul li {
+      display: block;
+      }
+    
