@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import ForgotPassword from '../Component/ForgotPassword';
+import App from './App';
 
-describe('ForgotPassword', () => {
-  test('renders ForgotPassword component', () => {
-    render(<ForgotPassword/>);
+describe('App', () => {
+  test('renders App component', () => {
+    render(<App/>);
   });
-  
+
 });
