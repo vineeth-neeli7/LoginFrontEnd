@@ -1,12 +1,12 @@
 .App {
   text-align: center;
   margin : auto;
-  background: url(F:/FinalProject/loginapp/src/retro2.jpg) no-repeat center center fixed;
+  background: url(F:\Github\Frontend\LoginFrontEnd\src\retro2.jpg) no-repeat center center fixed;
 }
 
 .div
 {
-  background: url(F:/FinalProject/loginapp/src/retro3.jpg) no-repeat center center fixed;
+  background: url(F:\Github\Frontend\LoginFrontEnd\src\retro3.jpg) no-repeat center center fixed;
 }
 
 #myInput {
@@ -47,7 +47,7 @@
     border: 0;
     margin: 0 0 15px;
     padding: 10px;
-    box-sizeing: border-box;
+    box-sizing: border-box;
     font-size: 14px;
     }
     
